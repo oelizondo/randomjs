@@ -1,6 +1,6 @@
 var generateWord = function() {
   var jsLibrary = $('#js-library')
-  var URL = "https://www.setgetgo.com/randomword/get.php"
+  var URL = "http://www.setgetgo.com/randomword/get.php"
 
   $.ajax(URL)
    .done(function(word) {

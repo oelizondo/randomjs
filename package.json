@@ -8,7 +8,6 @@
     "server": "browser-sync start --server --files css/*.css js/*.js assets/*.*",
     "watch": "onchange 'css/*.scss' -- npm run scss ",
     "sofia": "parallelshell 'npm run server' 'npm run watch' "
-
   },
   "author": "Your name goes here!",
   "license": "ISC",
@@ -16,7 +15,6 @@
     "node-sass": "^3.10.1",
     "onchange": "^3.0.2",
     "parallelshell": "^2.0.0",
-    "broswer-sync": "latest"
+    "browser-sync": "latest"
   }
 }
-

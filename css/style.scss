@@ -4,17 +4,14 @@
 body {
   margin: 0;
   padding: 0;
-  height: 100vh;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
 }
 
 .title {
-  font-family: 'Lato', sans-serif;
-  font-size: 20px;
-  font-weight: 100;
-  letter-spacing: 3px;
-  span { font-family: 'Tangerine', cursive; font-size: 40px; margin-left: 20px; }
+  text-align: center;
+  padding-top: 80px;
+  margin-bottom: 190px;
+}
+
+.main-word {
+  text-align: center;
 }
