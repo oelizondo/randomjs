@@ -1,0 +1,22 @@
+{
+  "name": "randomjs",
+  "version": "1.0.0",
+  "description": "Your description goes here!",
+  "main": "main.js",
+  "scripts": {
+    "scss": "node-sass --output-style compressed -o css/ css/",
+    "server": "browser-sync start --server --files css/*.css js/*.js assets/*.*",
+    "watch": "onchange 'css/*.scss' -- npm run scss ",
+    "sofia": "parallelshell 'npm run server' 'npm run watch' "
+
+  },
+  "author": "Your name goes here!",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^3.10.1",
+    "onchange": "^3.0.2",
+    "parallelshell": "^2.0.0",
+    "broswer-sync": "latest"
+  }
+}
+
